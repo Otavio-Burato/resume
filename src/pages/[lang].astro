@@ -11,11 +11,7 @@ import ProjectCard from "../components/ProjectCard.astro";
 import Avatar from "../components/Avatar.astro";
 import Badge from "../components/ui/Badge.astro";
 
-import { useTranslations } from '../i18n/utils.js';
-
-interface Props {
-	lang: String
-}
+import { ui } from '../i18n/ui';
 
 export function getStaticPaths() {
   return [
@@ -25,7 +21,10 @@ export function getStaticPaths() {
 }
 
 const { lang } = Astro.params;
-const t = useTranslations(lang);
+
+function t(key: string) {
+    return ui[lang][key];
+}
 
 const links = {
   email: "otavioburato42@gmail.com",
@@ -70,7 +69,7 @@ const links = {
       <Section>
         <h2 class="text-xl font-bold">{t("work.info")}</h2>
         {
-          t("work").map((work) => {
+          t("work").map((work: any) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
@@ -80,7 +79,7 @@ const links = {
                         {work.company}
                       </a>
                       <span class="inline-flex gap-x-1">
-                        {work.badges.map((badge) => (
+                        {work.badges.map((badge: any) => (
                           <Badge
                             variant="secondary"
                             class="align-middle text-xs"
@@ -108,7 +107,7 @@ const links = {
         <h2 class="text-xl font-bold">{t("certification.info")}</h2>
         <div class="flex flex-col">
           {
-            t("certification").map((certification) => {
+            t("certification").map((certification: any) => {
               return (
                 <CertCard
                   title={certification.entity}
@@ -128,7 +127,7 @@ const links = {
       <Section>
         <h2 class="text-xl font-bold">{t("education.info")}</h2>
         {
-          t("education").map((education) => {
+          t("education").map((education: any) => {
             return (
               <Card key={education.school}>
                 <CardHeader>
@@ -152,7 +151,7 @@ const links = {
         <h2 class="text-xl font-bold">Skills</h2>
         <div class="flex flex-wrap gap-1">
           {
-            t("skills").map((skill) => {
+            t("skills").map((skill: any) => {
               return <Badge>{skill}</Badge>;
             })
           }
@@ -162,7 +161,7 @@ const links = {
         <h2 class="text-xl font-bold">{t("projects.info")}</h2>
         <div class="flex flex-col">
           {
-            t("projects").map((project) => {
+            t("projects").map((project: any) => {
               return (
                 <ProjectCard
                   title={project.title}
