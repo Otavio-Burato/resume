@@ -1,14 +1,14 @@
 ---
 interface Props {
 	title: string;
-	languege: String
+	languege: string;
 }
 
 const { title, languege } = Astro.props;
 ---
 
 <!doctype html>
-<html lang=lang={languege}>
+<html lang={languege}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Astro description" />
@@ -22,7 +22,6 @@ const { title, languege } = Astro.props;
 	</body>
 </html>
 <style is:global>
-
 	:root {
 		--background: 0 0% 100%;
 		--foreground: 224 71.4% 4.1%;
@@ -86,6 +85,6 @@ const { title, languege } = Astro.props;
 	}
 
 	.print-force-new-page {
-	page-break-before: always;
+		page-break-before: always;
 	}
 </style>
