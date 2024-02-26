@@ -16,7 +16,7 @@ import { ui } from "../i18n/ui";
 export function getStaticPaths() {
   return [
     { params: { lang: "pt" } },
-    // {params: {lang: 'en'}},
+    {params: {lang: 'en'}},
   ];
 }
 
@@ -144,14 +144,14 @@ const links = {
                 <CardContent class="font-semibold">
                   {education.degree}
                 </CardContent>
-                <CardContent class="mt-2">{education.description}</CardContent>
+                <CardContent class="mt-2 text-justify">{education.description}</CardContent>
               </Card>
             );
           })
         }
       </Section>
       <Section>
-        <h2 class="text-xl font-bold">Skills</h2>
+        <h2 class="text-xl font-bold">{t("skills.info")}</h2>
         <div class="flex flex-wrap gap-1">
           {
             t("skills").map((skill: any) => {

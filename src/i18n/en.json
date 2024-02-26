@@ -14,7 +14,7 @@
       "title": "Software engineer",
       "start": "2022",
       "end": "Current",
-      "description": "Software Engineer at Banco Santander Brasil/F1rst Tecnologia, carrying out crucial responsibilities in the development and maintenance of APIs and microservices. Use cutting-edge technologies, such as Java 17, Quarkus, SQL, Kafka, Api gateway and ACL. Centered on building a credit platform, strictly adhering to the Well Architected Framework best practices and conducting non-functional requirements analyses. With approach stands out for its focus on high availability, multi-tenancy, cohesion and loose coupling."
+      "description": "Software Engineer at Banco Santander, one of the largest in Brazil, works with the development and maintenance of APIs and microservices using cutting-edge technologies, such as Java 17, Quarkus, SQL, Kafka, Api Gateway and ACL. His work is centered on building a credit platform, strictly adhering to the best practices of the Well Architected Framework and SOLID. Its approach stands out for its focus on high availability, cohesion and low coupling and customer satisfaction."
     },
     {
       "company": "GFT Group",
@@ -25,9 +25,10 @@
       "title": "Software developer",
       "start": "2021",
       "end": "2022",
-      "description": "Improvement and support of APIs and microservices are executed masterfully, using Java 11, Spring Boot Framework and Apache Camel to integrate systems. Outstanding performance in the post-sales loan system and contract administration. Diligent supervision of implementations and deployments in production, actively contributing to the design of solutions and the progression of legacy systems."
+      "description": "Improvement, support and construction of APIs and microservices, using Java 11, Spring Boot Framework and Apache Camel to integrate systems. Outstanding performance in the post-sales loan system, actively contributing to the design of solutions and the progression of legacy systems."
     }
   ],
+  "skills.info": "Skills",
   "skills": [
     "Azure",
     "Amazon Web Services",
@@ -67,6 +68,29 @@
     }
   ],
   "certification.info": "Certification",
+  "certification": [
+    {
+      "entity": "Solutions Architect",
+      "description": "AWS Certified Solutions Architect - Associate",
+      "link": {
+        "href": "https://www.credly.com/badges/20accd7b-c02c-4157-aaa2-d0ac6859f2c2"
+      }
+    },
+    {
+      "entity": "Cloud Practitioner",
+      "description": "AWS Certified Cloud Practitioner",
+      "link": {
+        "href": "https://www.credly.com/badges/e5e7b4c6-a85f-423e-a7b9-123a393a3904"
+      }
+    },
+    {
+      "entity": "Linux Essentials",
+      "description": "LE-1: Linux Essentials",
+      "link": {
+        "href": "https://lpi.org/v/LPI000491184/t2pn4tgxsd"
+      }
+    }
+  ],
   "projects.info": "Projects",
   "projects": [
     {

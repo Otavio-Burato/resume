@@ -14,7 +14,7 @@
       "title": "Engenheiro de software",
       "start": "2022",
       "end": "Atual",
-      "description": "Engenheiro de Software no Banco Santander Brasil/F1rst Tecnologia, desempenhando responsabilidades cruciais no desenvolvimento e manutenção de APIs e microserviços. Usando  tecnologias de ponta, como Java 17, Quarkus, SQL, Kafka, Api gateway e ACL. Seu trabalho está centrado na construção de uma plataforma de crédito, aderindo rigorosamente às melhores práticas do Well Architected Framework. Sua abordagem se destaca pelo foco em alta disponibilidade, multi-tenet, coesão e baixo acoplamento."
+      "description": "Engenheiro de Software no Banco Santander, um dos maiores do Brasil, atua com o desenvolvimento e manutenção de APIs e micro serviços usando tecnologias de ponta, como Java 17, Quarkus, SQL, Kafka, Api Gateway e ACL. Seu trabalho está centrado na construção de uma plataforma de crédito, aderindo rigorosamente às melhores práticas do Well Architected Framework e SOLID. Sua abordagem se destaca pelo foco em alta disponibilidade, com coesão e baixo acoplamento e na satisfação do cliente."
     },
     {
       "company": "Grupo GFT",
@@ -25,9 +25,10 @@
       "title": "Desenvolvedor de software",
       "start": "2021",
       "end": "2022",
-      "description": "Aprimoramento e sustentação de APIs e micro serviços, utilizando Java 11, Spring Boot Framework e Apache Camel para integrar sistemas. Atuação destacada no sistema de empréstimos pós-vendas contribuindo ativamente no desenho de soluções e na progressão de sistemas legados."
+      "description": "Aprimoramento, sustentação e construção de APIs e micro serviços, utilizando Java 11, Spring Boot Framework e Apache Camel para integrar sistemas. Atuação destacada no sistema de empréstimos pós-vendas contribuindo ativamente no desenho de soluções e na progressão de sistemas legados."
     }
   ],
+  "skills.info": "Habilidades",
   "skills": [
     "Azure",
     "Amazon Web Services",
