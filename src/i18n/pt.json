@@ -2,7 +2,7 @@
   "about": "Sobre",
   "about.info": "Desenvolvedor na F1RST focado na excelência técnica e na evolução contínua do negócio.",
   "name": "Otávio Burato de Oliveira",
-  "summary": "Analista desenvolvedor com experiência no setor financeiro, utilizando Java e AWS na arquitetura e desenvolvimento de sistemas. Atua em demandas complexas, priorizando compromisso, colaboração e criatividade, buscando impactar positivamente na cultura e nos resultados em todos os projetos que participa.",
+  "summary": "Analista desenvolvedor com experiência no setor financeiro, utilizando Java e AWS na arquitetura e desenvolvimento de sistemas. Atuo em demandas complexas com coragem, priorizando compromisso, colaboração e criatividade, buscando impactar positivamente na cultura e nos resultados em todos os projetos que participo.",
   "work.info": "Experiência",
   "work": [
     {
@@ -14,7 +14,7 @@
       "title": "Engenheiro de software",
       "start": "2022",
       "end": "Atual",
-      "description": "Engenheiro de Software no Banco Santander, um dos maiores do Brasil, atua com o desenvolvimento e manutenção de APIs e micro serviços usando tecnologias de ponta, como Java 17, Quarkus, SQL, Kafka, Api Gateway e ACL. Seu trabalho está centrado na construção de uma plataforma de crédito, aderindo rigorosamente às melhores práticas do Well Architected Framework e SOLID. Sua abordagem se destaca pelo foco em alta disponibilidade, com coesão e baixo acoplamento e na satisfação do cliente."
+      "description": "Engenheiro de Software no Banco Santander, um dos maiores do Brasil, atuo com o desenvolvimento e manutenção de APIs e micro serviços usando tecnologias de ponta, como Java 17, Quarkus, SQL, Kafka, Api Gateway. Meu trabalho está centrado na construção de uma plataforma de crédito, aderindo rigorosamente às melhores práticas do Well Architected Framework e SOLID. Minha abordagem se destaca pelo foco em alta disponibilidade, com coesão e baixo acoplamento e na satisfação do cliente."
     },
     {
       "company": "Grupo GFT",
@@ -48,14 +48,14 @@
     {
       "school": "42 São Paulo",
       "degree": "Engenharia de Software",
-      "description": "Estudante de engenharia de software em um sistema de aprendizagem baseado em peer-to-peer learning, buscando desenvolver excelência técnica, comprometimento e respeito nos relacionamentos interpessoais como características profissionais.",
+      "description": "Estudo engenharia de software em um sistema de aprendizagem baseado em peer-to-peer learning, busco desenvolver excelência técnica, comprometimento e respeito nos relacionamentos interpessoais como características profissionais.",
       "start": "2022",
       "end": "2024"
     },
     {
       "school": "Fatec Zona Sul",
       "degree": "Análise e Desenvolvimento de Sistemas",
-      "description": "Com formação em análise e desenvolvimento de sistemas, adquirio habilidades no manuseio de bancos de dados, elaboração de documentação, compreensão de lógica imperativa e funcional, e análise de requisitos funcionais e não funcionais.",
+      "description": "Com formação em análise e desenvolvimento de sistemas, adquiri habilidades no manuseio de bancos de dados, elaboração de documentação, compreensão de lógica imperativa e funcional, e análise de requisitos funcionais e não funcionais.",
       "start": "2019",
       "end": "2022"
     },
@@ -70,22 +70,22 @@
   "certification.info": "Certificação",
   "certification": [
     {
-      "entity": "Solutions Architect",
+      "entity": "SAA-C03: Solutions Architect",
       "description": "AWS Certified Solutions Architect - Associate",
       "link": {
         "href": "https://www.credly.com/badges/20accd7b-c02c-4157-aaa2-d0ac6859f2c2"
       }
     },
     {
-      "entity": "Cloud Practitioner",
+      "entity": "CLF-C02: Cloud Practitioner",
       "description": "AWS Certified Cloud Practitioner",
       "link": {
         "href": "https://www.credly.com/badges/e5e7b4c6-a85f-423e-a7b9-123a393a3904"
       }
     },
     {
-      "entity": "Linux Essentials",
-      "description": "LE-1: Linux Essentials",
+      "entity": "LE-1: Linux Essentials",
+      "description": "Linux Essentials",
       "link": {
         "href": "https://lpi.org/v/LPI000491184/t2pn4tgxsd"
       }
