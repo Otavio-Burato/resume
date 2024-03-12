@@ -14,7 +14,7 @@
       "title": "Engenheiro de software",
       "start": "2022",
       "end": "Atual",
-      "description": "Engenheiro de Software no Banco Santander, um dos maiores do Brasil, atuo com o desenvolvimento e manutenção de APIs e micro serviços usando tecnologias de ponta, como Java 17, Quarkus, SQL, Kafka, Api Gateway. Meu trabalho está centrado na construção de uma plataforma de crédito, aderindo rigorosamente às melhores práticas do Well Architected Framework e SOLID. Minha abordagem se destaca pelo foco em alta disponibilidade, com coesão e baixo acoplamento e na satisfação do cliente."
+      "description": "Engenheiro de Software no Banco Santander, um dos maiores do Brasil, atuo com o desenvolvimento e manutenção de APIs e micro serviços usando tecnologias de ponta, como Java 17, Quarkus, SQL, Kafka, Api Gateway. Meu trabalho está centrado na construção de uma plataforma de crédito, aderindo rigorosamente às melhores práticas do Well Architected Framework e SOLID. Minha abordagem se destaca pelo foco em alta disponibilidade, com baixo acoplamento e na satisfação do cliente."
     },
     {
       "company": "Grupo GFT",
@@ -139,7 +139,9 @@
       "techStack": [
         "EventHub",
         "Spark",
-        "Scala"
+        "Scala",
+        "Dataframe",
+        "Lake warehouse"
       ],
       "description": "Migração da ingestão de dados on premise para nuvem azure via databricks"
     },
